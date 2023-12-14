@@ -9,10 +9,11 @@ export default defineConfig({
         // intro
         {
           media: {
-            type: 'image',
-            src: import('./assets/img/durov.webp'),
+            type: 'sticker',
+            src: import('./assets/stickers/1.tgs'),
+            size: 250,
           },
-          shape: 'rounded',
+          shape: 'square',
           pagination: 'count',
           title: 'Отправляй видео',
           description:
@@ -23,10 +24,11 @@ export default defineConfig({
         // image
         {
           media: {
-            type: 'image',
-            src: import('./assets/img/durov.webp'),
+            type: 'sticker',
+            src: import('./assets/stickers/2.tgs'),
+            size: 250,
           },
-          shape: 'rounded',
+          shape: 'square',
           pagination: 'count',
           title: 'Добавляй больше фото',
           description:
@@ -37,24 +39,25 @@ export default defineConfig({
         // sticker
         {
           media: {
-            type: 'image',
-            src: import('./assets/img/durov.webp'),
+            type: 'sticker',
+            src: import('./assets/stickers/3.tgs'),
+            size: 250,
           },
-          shape: 'rounded',
+          shape: 'square',
           pagination: 'count',
           title: 'Добавляй контекст',
           description:
             'Добавь комментарий к отправляемому луку. Например, куда планируешь надевать или идти в образе. Можно добавить информацию о себе и своих предпочтениях. Так у стилистов будет больше деталей, на которые они обратят внимание и учтут при составлении своих рекомендаций. Также можно задавать свои вопросы через комментарии, на которые ответит стилист.',
           button: 'Next',
         },
-
         // sticker
         {
           media: {
-            type: 'image',
-            src: import('./assets/img/durov.webp'),
+            type: 'sticker',
+            src: import('./assets/stickers/4.tgs'),
+            size: 250,
           },
-          shape: 'rounded',
+          shape: 'square',
           pagination: 'count',
           title: 'Подпишись на наш канал',
           description: `@Lookwhiz, там ты найдешь:`,
@@ -106,7 +109,7 @@ export default defineConfig({
             //   text: 'новости и обновления проекта',
             // },
           ],
-          button: 'Next',
+          //button: 'Next',
         },
         // video
         // {
