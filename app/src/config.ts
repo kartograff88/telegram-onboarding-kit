@@ -71,7 +71,7 @@ export default defineConfig({
           ],
           button: {
             content: 'В начало',
-            to: '/?page=1',
+            to: '/',
           },
         },
         // video
